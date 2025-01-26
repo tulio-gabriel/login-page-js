@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.5s;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(143, 74, 234),
+    rgba(0, 0, 255, 0.671)
+  );
+}
+.logincontainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 370px;
+  box-shadow: 1px 1px 1px 2px black;
+  border-radius: 10px;
+}
+.formside {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  border-radius: 0px 10px 10px 0px;
+  height: 100%;
+  padding-top: 70px;
+  position: relative;
+  left: auto;
+  right: 0;
+}
+.imgside {
+  width: 60%;
+  border-radius: 10px;
+  height: 100%;
+  position: relative;
+  left: 0;
+  right: auto;
+}
+input,
+label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.loginimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+}
+.btncad {
+  background-color: rgb(124, 90, 235);
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  padding-bottom: 20px;
+}
+input {
+  width: 150px;
+  height: 25px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid black;
+}
+.nomelabel {
+  position: relative;
+  right: -1px;
+}
+.btncad:hover {
+  opacity: 0.6;
+}
+.btndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 40px;
+}
+#btnx {
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  height: 40px;
+}
+.logpage {
+  background-color: rgb(152, 129, 228);
+  color: white;
+  font-weight: bold;
+}
+.cadpage {
+  background-color: rgba(106, 106, 239, 0.671);
+  color: white;
+  font-weight: bold;
+}
+.logpage:hover {
+  background-color: white;
+  color: rgb(152, 129, 228);
+}
+.cadpage:hover {
+  background-color: white;
+  color: rgba(106, 106, 239, 0.671);
+}
+form,
+img {
+  transition: all 0.5s ease;
+}
+#btnx:focus{
+	border: 3px solid black;
+}

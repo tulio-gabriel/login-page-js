@@ -1,0 +1,81 @@
+/* media.css */
+
+/* Default styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+}
+
+/* Media query for devices with a max width of 768px */
+@media (max-width: 768px) {
+	.formside {
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		text-align: center;
+		padding: 5px;
+		background-color: rgb(255, 255, 255);
+		width: 60%;
+		border-radius: 0px 10px 10px 0px;
+		height: 100%;
+		padding-top: 70px;
+		position: relative;
+		left: auto;
+		right: 0;
+	  }
+	  input, label{
+		width: 75px;
+	  }
+	  .logincontainer{
+		width: 80%;
+		height: 300px;
+	  }
+	  .formside{
+		padding-top:20px;
+	  }
+	
+}
+
+/* Media query for devices with a max width of 480px */
+@media (max-width: 480px) {
+	body {
+		background-color: #d0d0d0;
+	}
+
+	.container {
+		padding: 5px;
+	}
+
+	.header {
+		font-size: 1.2em;
+	}
+
+	.content {
+		font-size: 0.9em;
+	}
+	.formside {
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		text-align: center;
+		padding: 5px;
+		background-color: rgb(255, 255, 255);
+		width: 60%;
+		border-radius: 0px 10px 10px 0px;
+		height: 100%;
+		padding-top: 70px;
+		position: relative;
+		left: auto;
+		right: 0;
+	  }
+	  input, label{
+		width: 75px;
+	  }
+	  .logincontainer{
+		width: 80%;
+		height: 300px;
+	  }
+	  .formside{
+		padding-top: 30px;
+	  }
+}

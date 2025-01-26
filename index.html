@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+</head>
+<body>
+	<main>
+		<div class="btndiv">
+			<button class="logpage" id="btnx" onclick="clicklog()">Login</button>
+			<button class="cadpage" id="btnx" onclick="clickcad()">Cadastro</button>
+		</div>
+		<div class="logincontainer">
+			<div class="imgside">
+				<img class="loginimg" src="img/triangle-2499635_1280.jpg" alt="login_image">
+			</div>
+			<div class="formside">
+				<h1 class="title">Cadastro</h1>
+				<form action="">
+					<label for="nome" class="nomelabel"> 
+						Nome:
+						<input type="text" name="nome" id="nome" required placeholder="Digite seu nome"/>
+					</label>
+					<br>
+					<label for="senha">
+						Senha:
+						<input type="password" name="senha" id="senha" placeholder="Digite sua senha" required/>
+					</label>
+					<br>
+					<button class="btncad" >Cadastre-se</button>
+				</form>
+			</div>	
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
